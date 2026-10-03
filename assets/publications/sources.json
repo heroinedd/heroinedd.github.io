@@ -1,0 +1,141 @@
+[
+  {
+    "publication": "accessrefinery",
+    "label": "PDF",
+    "source": "content/en/papers/2026-AccessRefinery-Fast-Mining-Concise-Access-Control-Intents-on-Public-Cloud.md",
+    "source_value": "/papers/AccessRefinery/accessrefinery_final_version.pdf",
+    "href": "assets/publications/accessrefinery/accessrefinery_final_version.pdf"
+  },
+  {
+    "publication": "accessrefinery",
+    "label": "Slides",
+    "source": "content/en/papers/2026-AccessRefinery-Fast-Mining-Concise-Access-Control-Intents-on-Public-Cloud.md",
+    "source_value": "/papers/AccessRefinery/accessrefinery_slides.pdf",
+    "href": "assets/publications/accessrefinery/accessrefinery_slides.pdf"
+  },
+  {
+    "publication": "accessrefinery",
+    "label": "Code",
+    "source": "content/en/papers/2026-AccessRefinery-Fast-Mining-Concise-Access-Control-Intents-on-Public-Cloud.md",
+    "source_value": "https://github.com/XJTU-NetVerify/accessrefinery",
+    "href": "https://github.com/XJTU-NetVerify/accessrefinery"
+  },
+  {
+    "publication": "accessrefinery",
+    "label": "Video",
+    "source": "content/en/papers/2026-AccessRefinery-Fast-Mining-Concise-Access-Control-Intents-on-Public-Cloud.md",
+    "source_value": "https://www.youtube.com/watch?v=ILUue00Bc_s&t=18s",
+    "href": "https://www.youtube.com/watch?v=ILUue00Bc_s&t=18s"
+  },
+  {
+    "publication": "relia",
+    "label": "PDF",
+    "source": "content/en/papers/2025-Relia-Accelerating-the-Analysis-of-Cloud-Access-Control-Policies.md",
+    "source_value": "/papers/Relia/ASE_final_version.pdf",
+    "href": "assets/publications/relia/ASE_final_version.pdf"
+  },
+  {
+    "publication": "relia",
+    "label": "Slides",
+    "source": "content/en/papers/2025-Relia-Accelerating-the-Analysis-of-Cloud-Access-Control-Policies.md",
+    "source_value": "/papers/Relia/relia_v2.4.pdf",
+    "href": "assets/publications/relia/relia_v2.4.pdf"
+  },
+  {
+    "publication": "relia",
+    "label": "Poster",
+    "source": "content/en/papers/2025-Relia-Accelerating-the-Analysis-of-Cloud-Access-Control-Policies.md",
+    "source_value": "/papers/Relia/research-169-poster.pdf",
+    "href": "assets/publications/relia/research-169-poster.pdf"
+  },
+  {
+    "publication": "relia",
+    "label": "Video",
+    "source": "content/en/papers/2025-Relia-Accelerating-the-Analysis-of-Cloud-Access-Control-Policies.md",
+    "source_value": "https://www.youtube.com/watch?v=dsq9FZRjmnM",
+    "href": "https://www.youtube.com/watch?v=dsq9FZRjmnM"
+  },
+  {
+    "publication": "s2",
+    "label": "PDF",
+    "source": "content/en/papers/2025-S2-A-Distributed-Configuration-Verifier-for-Hyper-Scale-Networks.md",
+    "source_value": "/papers/S2/s2_final_version.pdf",
+    "href": "assets/publications/s2/s2_final_version.pdf"
+  },
+  {
+    "publication": "s2",
+    "label": "Slides",
+    "source": "content/en/papers/2025-S2-A-Distributed-Configuration-Verifier-for-Hyper-Scale-Networks.md",
+    "source_value": "/papers/S2/s2_slides.pdf",
+    "href": "assets/publications/s2/s2_slides.pdf"
+  },
+  {
+    "publication": "s2",
+    "label": "Code",
+    "source": "content/en/papers/2025-S2-A-Distributed-Configuration-Verifier-for-Hyper-Scale-Networks.md",
+    "source_value": "https://github.com/XJTU-NetVerify/s2/tree/master/projects/distributed",
+    "href": "https://github.com/XJTU-NetVerify/s2/tree/master/projects/distributed"
+  },
+  {
+    "publication": "s2",
+    "label": "Video",
+    "source": "content/en/papers/2025-S2-A-Distributed-Configuration-Verifier-for-Hyper-Scale-Networks.md",
+    "source_value": "https://www.youtube.com/watch?v=r6Y73NGaQBw",
+    "href": "https://www.youtube.com/watch?v=r6Y73NGaQBw"
+  },
+  {
+    "publication": "expresso",
+    "label": "PDF",
+    "source": "content/en/papers/2024-Expresso-Comprehensively-Reasoning-About-External-Routes-Using-Symbolic-Simulation.md",
+    "source_value": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672220",
+    "href": "https://dl.acm.org/doi/pdf/10.1145/3651890.3672220"
+  },
+  {
+    "publication": "expresso",
+    "label": "Slides",
+    "source": "content/en/papers/2024-Expresso-Comprehensively-Reasoning-About-External-Routes-Using-Symbolic-Simulation.md",
+    "source_value": "/slides/expresso/expresso-slides.pdf",
+    "href": "assets/publications/expresso/expresso-slides.pdf"
+  },
+  {
+    "publication": "expresso",
+    "label": "Code",
+    "source": "content/en/papers/2024-Expresso-Comprehensively-Reasoning-About-External-Routes-Using-Symbolic-Simulation.md",
+    "source_value": "https://github.com/XJTU-NetVerify/Expresso",
+    "href": "https://github.com/XJTU-NetVerify/Expresso"
+  },
+  {
+    "publication": "expresso",
+    "label": "Video",
+    "source": "content/en/papers/2024-Expresso-Comprehensively-Reasoning-About-External-Routes-Using-Symbolic-Simulation.md",
+    "source_value": "https://www.youtube.com/embed/cafm5zeSf68?si=trl416sgzCI0u0Ke",
+    "href": "https://www.youtube.com/watch?v=cafm5zeSf68"
+  },
+  {
+    "publication": "expresso",
+    "label": "Slides",
+    "source": "static/slides/expresso/expresso-slides.pptx",
+    "href": "assets/publications/expresso/expresso-slides.pptx"
+  },
+  {
+    "publication": "sre",
+    "label": "Paper",
+    "source": "content/en/papers/2022-Symbolic-Router-Execution.md",
+    "source_value": "https://dl.acm.org/doi/abs/10.1145/3544216.3544264",
+    "href": "https://dl.acm.org/doi/abs/10.1145/3544216.3544264"
+  },
+  {
+    "publication": "sre",
+    "label": "Slides",
+    "source": "content/en/papers/2022-Symbolic-Router-Execution.md",
+    "source_value": "https://aaron.gember-jacobson.com/docs/sigcomm2022sre_slides.pdf",
+    "href": "https://aaron.gember-jacobson.com/docs/sigcomm2022sre_slides.pdf"
+  },
+  {
+    "publication": "sre",
+    "label": "Video",
+    "source": "content/en/papers/2022-Symbolic-Router-Execution.md",
+    "source_value": "https://www.youtube.com/embed/1rHItyAY4RE?si=V0ZQ67LENdvBQf6N",
+    "href": "https://www.youtube.com/watch?v=1rHItyAY4RE"
+  }
+]

@@ -1,0 +1,75 @@
+/* Navigation palette picker. Violet is the default palette.
+   Typography, spacing, and the white background remain consistent. */
+:root[data-theme="plum"] {
+  --heading-light: #582b65; --link-light: #804394; --hover-light: #482053;
+  --heading-dark: #dec2eb; --link-dark: #cfa4e2; --hover-dark: #eedbf6;
+}
+:root, :root[data-theme="violet"] {
+  --heading-light: #4c2880; --link-light: #7441b0; --hover-light: #3d1e6a;
+  --heading-dark: #d6c0fa; --link-dark: #c3a0f0; --hover-dark: #eadcff;
+}
+:root[data-theme="iris"] {
+  --heading-light: #494477; --link-light: #6861a3; --hover-light: #38325e;
+  --heading-dark: #d0cdef; --link-dark: #b8b3e4; --hover-dark: #e8e5ff;
+}
+:root[data-theme="blue"] {
+  --heading-light: #043361; --link-light: #3399cc; --hover-light: #006699;
+  --heading-dark: #3eb7f0; --link-dark: #3eb7f0; --hover-dark: #3eb7f0;
+}
+:root {
+  --theme-heading: var(--heading-light); --theme-link: var(--link-light); --theme-hover: var(--hover-light);
+  --theme-bg: #fff; --theme-text: #595959; --theme-strong: #222; --theme-border: #e5e5e5;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-appearance="light"]) {
+    --theme-heading: var(--heading-dark); --theme-link: var(--link-dark); --theme-hover: var(--hover-dark);
+    --theme-bg: #20212b; --theme-text: #dadbdf; --theme-strong: #eeeff0; --theme-border: #494a56;
+    color-scheme: dark;
+  }
+}
+:root[data-appearance="dark"] {
+  --theme-heading: var(--heading-dark); --theme-link: var(--link-dark); --theme-hover: var(--hover-dark);
+  --theme-bg: #20212b; --theme-text: #dadbdf; --theme-strong: #eeeff0; --theme-border: #494a56;
+  color-scheme: dark;
+}
+body { background-color: var(--theme-bg); color: var(--theme-text); }
+h1, h2, h3, h4, h5, h6 { color: var(--theme-heading); }
+a { color: var(--theme-link); }
+a:hover { color: var(--theme-hover); }
+strong { color: var(--theme-strong); }
+autocolor { color: var(--theme-text); }
+.social-icons a { color: var(--theme-heading) !important; }
+.social-icons a:hover { color: var(--theme-hover) !important; background-color: var(--theme-bg); }
+section { border-color: var(--theme-border); }
+
+/* Theme dropdown in the top navigation. */
+#theme-picker { margin: 0; background: var(--theme-bg); padding: 12px; border: 1px solid var(--theme-border); border-radius: 6px; text-align: left; font: 13px/1.5 system-ui, sans-serif; }
+#theme-picker[hidden] { display: none; }
+#theme-picker legend { padding: 0 5px; color: var(--theme-heading); }
+#theme-options { display: grid; gap: 5px; margin-bottom: 12px; }
+#theme-options button { display: flex; gap: 9px; align-items: center; width: 100%; padding: 6px 8px; background: transparent; border: 1px solid transparent; border-radius: 4px; color: var(--theme-text); font: inherit; text-align: left; cursor: pointer; }
+#theme-options button[aria-pressed="true"] { border-color: var(--theme-link); color: var(--theme-heading); }
+#theme-options .swatch { width: 13px; height: 13px; flex-shrink: 0; border-radius: 50%; background: var(--swatch); }
+#theme-picker select { margin-left: 5px; max-width: 100%; font: inherit; color: var(--theme-text); background: var(--theme-bg); border: 1px solid var(--theme-border); border-radius: 3px; }
+#theme-picker :focus-visible { outline: 2px solid var(--theme-link); outline-offset: 2px; }
+@media print { #theme-picker { display: none; } }
+
+/* Sticky navigation with wrapping section links on smaller screens. */
+html { scroll-padding-top: var(--nav-offset, 90px); }
+.top-nav { position: sticky; top: 0; z-index: 10; background: var(--theme-bg); border-bottom: 1px solid var(--theme-border); }
+.nav-inner { max-width: 960px; margin: 0 auto; padding: 14px 0; display: flex; align-items: center; gap: 24px; }
+.nav-name { font-weight: 600; font-size: 20px; white-space: nowrap; color: var(--theme-heading); }
+.nav-sections { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-left: auto; font-size: 17px; }
+.theme-menu { position: relative; font-size: 17px; }
+.theme-menu summary { cursor: pointer; color: var(--theme-heading); white-space: nowrap; }
+.theme-menu #theme-picker { position: absolute; right: 0; top: calc(100% + 14px); width: 220px; box-sizing: border-box; box-shadow: 0 8px 24px #00000012; }
+.top-nav a:focus-visible, .theme-menu summary:focus-visible { outline: 2px solid var(--theme-link); outline-offset: 4px; }
+.skip-link:focus { position: fixed; z-index: 20; background: var(--theme-bg); }
+@media (max-width: 960px) {
+  .nav-inner { position: relative; padding: 12px 0; gap: 10px 16px; flex-wrap: wrap; }
+  .nav-sections { order: 3; width: 100%; margin-left: 0; gap: 6px 18px; }
+  .theme-menu { position: static; margin-left: auto; }
+  .theme-menu #theme-picker { top: calc(100% + 8px); }
+}
+@media print { .top-nav { display: none; } }
