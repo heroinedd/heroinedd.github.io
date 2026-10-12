@@ -1,5 +1,11 @@
 [
   {
+    "publication": "smoothie",
+    "label": "Preprint",
+    "source": "https://arxiv.org/abs/2610.13161",
+    "href": "https://arxiv.org/abs/2610.13161"
+  },
+  {
     "publication": "accessrefinery",
     "label": "PDF",
     "source": "content/en/papers/2026-AccessRefinery-Fast-Mining-Concise-Access-Control-Intents-on-Public-Cloud.md",
